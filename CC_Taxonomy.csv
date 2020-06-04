@@ -1,0 +1,131 @@
+"by B. Mirkin, Moscow, 2020",,,,,,
+1,Clustering methods,,,,,Unsupervised learning
+1.1,,Partition,,,,Clustering
+1.1.1.,,,K-means,,,
+1.1.2.,,,Number of clusters,,,
+1.1.3.,,,Self organised map,,,
+1.1.4.,,,Affinity propagation,,,
+1.1.5.,,,Block-modeling,,,
+1.1.6.,,,Semi-supervised clustering,,,
+1.2,,One cluster,,,,Single cluster
+1.3,,Hierarchical clustering,,,,
+1.3.1.,,,Agglomerative,,,
+1.3.2.,,,Divisive,,,
+1.3.3.,,,Decision tree,,,"Classification tree, conceptual clustering"
+1.3.4.,,,,,,
+1.4,,Fuzzy clustering,,,,Soft clustering
+1.5,,Probabilistic clustering,,,,
+1.5.1.,,,Density function,,,Distribution
+1.5.2.,,,Mixture,,,
+1.5.3.,,,Expectation Maximization,,,
+1.5.4.,,,Markov models,,,
+1.6,,Cluster-wise regression,,,,
+1.7,,Nature-inspired clustering,,,,Evolutionary algorithm
+1.8,,Consensus clustering,,,,
+1.9,,Other clustering,,,,
+2,Data formats,,,,,
+2.1,,Similarity,,,,"Dissimilarity, poximity"
+2.1.1.,,,Additive clustering,,,
+2.1.2.,,,Graph mining,,,
+2.1.3.,,,Community detection,,,
+2.1.4.,,,Spectral clustering,,,
+2.1.5.,,,Maximum spanning tree,,,Minimum spanning tree
+2.1.6.,,,Single link,,,Nearest neighbor
+2.1.7.,,,Complete link,,,Farthest neighbor
+2.1.8.,,,Kernel,,,
+2.2,,Distance,,,,Dissimilarity
+2.3,,Tree,,,,Hierarchy
+2.4,,Preference,,,,Ordering
+2.5,,Incomplete,,,,Missing
+2.6,,Spatial,,,,
+2.7,,Temporal,,,,"Dynamic, Time series"
+2.8.,,Three-way,,,,Tensor
+2.9.,,Text,,,,Document
+2.9.1.,,,Document filtration,,,
+2.9.2.,,,Topic modeling,,,Latent allocation
+2.9.3.,,,Information retrieval,,,Document retrieval
+2.9.4.,,,Text mining,,,
+2.1,,Image analysis,,,,
+2.10.1.,,,Segmentation,,,
+2.10.2.,,,Skeleton,,,
+2.10.3.,,,Edge detection,,,
+2.11,,Vector space,,,,
+2.11.1.,,,Nominal features,,,"Categorical, Character"
+2.11.2.,,,Binary feaures,,,"Attribute, dummy variable"
+2.11.3.,,,Data coding,,,Data encoding
+2.11.4.,,,Feature weighting,,,
+2.11.5.,,,Data normalization,,,"Standardization, Preprocessing"
+2.11.6.,,,Feature selection,,,
+3,Related methods,,,,,
+3.1,,Ranking,,,,Ordering
+3.2,,Scaling,,,,
+3.3,,Classifier,,,,"Pattern recognition, Supervised learning"
+3.3.1.,,,Discriminant analysis,,,
+3.3.2.,,,Support vector machine,,,
+3.3.3.,,,Nearest Neighbor,,,
+3.3.3.,,,Neural network,,,
+3.3.4.,,,Regularizer,,,
+3.3.5.,,,Ensemble,,,
+3.4.,,Dimensionality reduction,,,,Data aggregation
+3.4.1.,,,Singular value decomposition,,,
+3.4.2.,,,Principal component analysis,,,
+3.4.3.,,,Correspondence analysis,,,
+3.4.4.,,,Independent component,,,
+3.6.,,Biclustering,,,,
+3.7.,,Visualization,,,,
+3.7.1.,,,Biplot,,,
+3.7.2.,,,Dendrogram,,,
+3.7.3.,,,Cloud,,,
+3.7.4.,,,Parallel coordinates,,,
+3.8.,,Matrix faxtorization,,,,
+3.8.1.,,,Non-negative decomposition,,,
+3.8.2.,,,Archetype analysis,,,
+3.9,,Anomaly detection,,,,Outlier
+3.10.,,Correlation,,,,
+3.10.1.,,,Contingency table,,,
+3.10.2.,,,Comparing partitions,,,
+3.10.3.,,,Association index,,,Chi-squared
+3.11,,Regression analysis,,,,
+3.11.1.,,,Linear regression,,,
+3.11.2.,,,Non-linear regression,,,
+3.11.3.,,,Spline,,,
+3.12.,,Formal concept,,,,
+4,Analysis of properties,,,,,
+4.1,,Probability and statistics,,,,
+4.1.1.,,,Mixture of distributions,,,
+4.1.2.,,,Bayesian,,,
+4.1.3.,,,Maximum likelihood,,,
+4.1.4.,,,Markov-chain Monte Carlo methods,,,
+4.2,,Geometry,,,,
+4.3,,Optimisation,,,,
+4.4,,Cluster structures,,,,
+4.5,,Computational experiment,,,,
+4.5.1.,,,Cross-validation,,,
+4.5.2.,,,Resampling,,,Random sample
+4.5.3.,,,Leave-one-out,,,Jackknife
+4.5.4.,,,Bootstrap,,,
+4.5.5.,,,Data generation,,,
+4.6.,,Efficiency,,,,
+4.6.1.,,,Accuracy,,,
+4.6.2.,,,Sensitivity,,,
+4.6.3.,,,False positive,,,
+4.6.4.,,,Cluster recovery,,,
+4.6.5.,,,Area under curve,,,
+4.6.6.,,,Quadratic error,,,
+5,Applications,,,,,
+5.1.,,Classification,,,,"Typology, Taxonomy"
+5.2.,,Evolution,,,,Phylogeny
+5.3.,,Psychology,,,,
+5.4.,,Antropology,,,,
+5.5.,,Geography,,,,
+5.6.,,Recommendation systems,,,,Collaborative filtering
+5.7.,,Interpretation,,,,
+5.8.,,Knowledge representation and reasoning,,,,
+5.8.1.,,,Ontology,,,
+5.8.2.,,,Expert system,,,
+5.8.3.,,,Reasoning,,,
+5.8.4.,,,Robotics,,,
+5.8.5.,,,Belief network,,,
+5.8.6.,,,Fuzzy logics,,,
+5.9.,,Bioinformatics,,,,"Genomics, Proteomics"
+5.10.,,Sociology,,,,
