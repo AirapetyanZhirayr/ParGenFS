@@ -1,13 +1,14 @@
 import re
 from collections.abc import Collection
+
 class Node(Collection):
 
     def __init__(self, index, name, synonyms, parent, children=None):
-
         self.index = index
         self.name = name
         self.parent = parent
         self.synonyms = synonyms
+
         if children is None:
             self.children = []
         else:
@@ -64,6 +65,8 @@ class Node(Collection):
     @property
     def is_root(self):
         return self.parent is None
+
+
 class Taxonomy:
 
     def __init__(self, filename):

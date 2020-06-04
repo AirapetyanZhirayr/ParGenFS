@@ -21,7 +21,7 @@ def ensure_np_matrix(A):
 def faddis(A):
     ''' faddis: equential extraction of fuzzy clusters, in a sequential manner
 
-    A is NxN similatriy matrix, symmetrized
+    A is NxN similarity matrix, symmetrized
     membership_matrix - NxK membership matrix of clustering;
     contrib - 1xK vector of relative contributions to the data scatter;
     intensity - Kx2 matrix of cluster intensities^0.5 and intensities;
