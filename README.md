@@ -1,6 +1,6 @@
 Parsimonious Generalization of Fuzzy Sets
 
-This project is about generalizing fuzzy sets, built on Data Science publications in Journal of Classification.
+This project is about generalizing fuzzy sets, built on Data Science publications in [Journal of Classification](https://www.springer.com/journal/357).
 
 run.ipynb -  script to run the whole project. This script will guide you through the whole project and will make you understand which file in which order to open.
 
