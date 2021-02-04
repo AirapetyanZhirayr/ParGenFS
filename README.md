@@ -1,22 +1,29 @@
 Parsimonious Generalization of Fuzzy Sets
 
-Общая характеристика публикаций журнала Journal of Classification с методом подъема нечетких множеств таксономии.
+This project is about generalizing fuzzy sets, built on Data Science publications in Journal of Classification.
 
-Математически, таксономия - это корневое дерево, узлы которого ан-нотированы темами таксономии.
+run.ipynb -  script to run the whole project. This script will guide you through the whole project and will make you understand which file in which order to open.
 
-Описание файлов:
+Description of other files:
 
-run.ipynb - тетрадка для запуска всего проекта
+  loading_Abstracts.ipynb - scrapping publications and their abstracts.
 
-loading_Abstracts.ipynb - извлечение статей и их абстрактов 
+  papers.csv - the dataset of scraped abstracts
 
-papers.csv - датасет  публикаций из научного журнала Springer с извлеченными абстрактами 
+  JoC_publications_1984_2019.docx - full list of publications
 
-JoC_publications_1984_2019.docx - полный список публикаций
+  СС_Taxonomy.csv, СС_Taxonomy.xlsx - The taxonomy tree in DS domain given by [Boris Mirkin](https://www.hse.ru/staff/bmirkin), Professor of the Faculty of Computer
+  Science at HSE.
 
-СС_Taxonomy.csv, СС_Taxonomy.xlsx - таксономия предметной области, в нашем случае наук о данных, составленная руками.
+  R.txt - paper_text to taxonomy_topic relevance matrix build on AST.
 
-ete3_functions.py и visualize.py - функции для визуализации результатов подъема
+  ete3_functions.py и visualize.py -utils for visualization 
 
-lapin.py - реализация обратного преобразования Лапласа
+  lapin.py - laplace inverse transformation
+
+  U_matrix.txt' - topic to topic relevance matrice with laplace inverse transformation applied
+  
+  ParGen.py - the algorithm of the parsimonious generalization of given fuzzy set
+  
+  table.csv - the results
 
